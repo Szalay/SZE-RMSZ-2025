@@ -29,4 +29,53 @@
     <Info Location="ProjectData">
         <Info Name="SZE-RMSZ-2025-H"/>
     </Info>
+    <Files Location="Root">
+        <File Location="ERR_H3.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="ERR_H5.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="ERRH.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="RMSZ_Laplace_H4.m">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="Tekercs_H6_Alap.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="Tekercs_H6.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+    </Files>
+    <ProjectPath Location="Root">
+        <Reference Location="6f069a65-c5dd-409f-b770-ab7fd218e69e">
+            <Info Ref="" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
 </project>

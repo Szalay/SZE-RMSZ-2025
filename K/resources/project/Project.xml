@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+            <Label Location="artifact">
+                <Info Name="Artifact" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="derived">
+                <Info Name="Derived" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="design">
+                <Info Name="Design" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="other">
+                <Info Name="Other" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="test">
+                <Info Name="Test" ReadOnly="READ_ONLY"/>
+            </Label>
+        </Category>
+    </Categories>
+    <Info Location="ProjectData">
+        <Info Name="SZE-RMSZ-2025-K"/>
+    </Info>
+    <Files Location="Root">
+        <File Location="ERR_K5.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="ERRK.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="RMSZ_Laplace_K4.m">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="Tekercs_K6_Alap.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="Tekercs_K6.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+    </Files>
+    <ProjectPath Location="Root">
+        <Reference Location="8945e03c-2b90-4d02-b4b8-cd1aac8b1fb5">
+            <Info Ref="" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
+</project>

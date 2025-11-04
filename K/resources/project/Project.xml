@@ -106,6 +106,13 @@
                 </Category>
             </Info>
         </File>
+        <File Location="MKC_K9.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
     </Files>
     <ProjectPath Location="Root">
         <Reference Location="8945e03c-2b90-4d02-b4b8-cd1aac8b1fb5">

@@ -72,6 +72,54 @@
                 </Category>
             </Info>
         </File>
+        <File Location="BC_H9.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="MKC_H9.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="MK_H.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="MRR_H8.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="MRR_H8_Alap.slx">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="MRR_xi_H8.mldatx">
+            <Info/>
+        </File>
+        <File Location="MRR_xi_H8_DI.mldatx">
+            <Info/>
+        </File>
+        <File Location="Tekercs.m">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
     </Files>
     <ProjectPath Location="Root">
         <Reference Location="6f069a65-c5dd-409f-b770-ab7fd218e69e">

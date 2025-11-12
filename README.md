@@ -6,6 +6,7 @@ A gyakorlatokon készült fájlok két mappába, illetve projektbe lettek szerve
 ## Mintazárthelyi
 A mintazárthelyihez tartozó fájlok a `ZH_Z` mappában vannak. 
 
+* Az `RMSZ 2025 ZH-Z Minta.pdf` a mintazárthelyi.
 * Az `M_ZH_Z1.slx`-`M_ZH_Z5.slx` és az `M_MK.slx` a feladatok megoldásai.
 * Az `E_ZH_Z1.slx`-`E_ZH_Z5.slx`, a `ZH_Z.slx`, a `C_ZH_Z1.m`-`C_ZH_Z5.m` és a `ZHZ.m` a feladatok ellenőrző blokkjai állatják elő. 
 * Az `E_ZH_Z1.slxp`-`E_ZH_Z5.slxp` a védett ellenőrző blokkok.

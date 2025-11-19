@@ -13,6 +13,7 @@ f = [
 	dirac(t);
 	heaviside(t);		% Egységugrás
 	exp(-t/tau);
+	t*exp(-t/tau);
 	cos(omega*t);
 	sin(omega*t)
 ];
@@ -84,7 +85,7 @@ dsolve(ERR) %[output:60e2fd92]
 %   data: {"dataType":"symbolic","outputData":{"name":"F","value":"\\frac{s}{s^2 +1}"}}
 %---
 %[output:4fae7002]
-%   data: {"dataType":"symbolic","outputData":{"name":"ans","value":"\\left(\\begin{array}{cc}\n{\\delta }\\left(t\\right) & 1\\\\\n\\mathrm{heaviside}\\left(t\\right) & \\frac{1}{s}\\\\\n{\\mathrm{e}}^{-\\frac{t}{\\tau }}  & \\frac{1}{s+\\frac{1}{\\tau }}\\\\\n\\cos \\left(\\omega \\,t\\right) & \\frac{s}{\\omega^2 +s^2 }\\\\\n\\sin \\left(\\omega \\,t\\right) & \\frac{\\omega }{\\omega^2 +s^2 }\n\\end{array}\\right)"}}
+%   data: {"dataType":"symbolic","outputData":{"name":"ans","value":"\\left(\\begin{array}{cc}\n{\\delta }\\left(t\\right) & 1\\\\\n\\mathrm{heaviside}\\left(t\\right) & \\frac{1}{s}\\\\\n{\\mathrm{e}}^{-\\frac{t}{\\tau }}  & \\frac{1}{s+\\frac{1}{\\tau }}\\\\\nt\\,{\\mathrm{e}}^{-\\frac{t}{\\tau }}  & \\frac{1}{{{\\left(s+\\frac{1}{\\tau }\\right)}}^2 }\\\\\n\\cos \\left(\\omega \\,t\\right) & \\frac{s}{\\omega^2 +s^2 }\\\\\n\\sin \\left(\\omega \\,t\\right) & \\frac{\\omega }{\\omega^2 +s^2 }\n\\end{array}\\right)"}}
 %---
 %[output:922b5eea]
 %   data: {"dataType":"symbolic","outputData":{"name":"ans","value":"R\\,\\cos \\left(\\omega \\,t\\right)\\,\\cos \\left(\\phi \\right)-R\\,\\sin \\left(\\omega \\,t\\right)\\,\\sin \\left(\\phi \\right)"}}
